@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    margin: auto;
+    max-width: 1500px;
+    height: 80px;
+    align-items: center;
+}
+
+.nav-one{
+    display: flex;
+    flex-direction: row;
+    width: 1500px;
+    margin: auto;
+    justify-content: space-between;
+   
+}
+
+.nav-one-right{
+    display: flex;
+    column-gap: 34px;
+    align-items: center;
+}
+
+.nav-one-right-btn{
+    display: flex;
+    column-gap: 18px;
+}
+
+.nav-one-right-btn-1{
+    border: 1px solid #FB8F1D;
+    width: 132px;
+    height: 44px;
+    border-radius: 8px;
+    background-color: white;
+    color: #FB8F1D;
+}
+
+.nav-one-right-btn-2{
+    border: #FB8F1D;
+    width: 132PX;
+    height: 44PX;
+    border-radius: 8px;
+    background-color: #FB8F1D;
+    color: white;
+}
+
+.nav-one-right-link-home{
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-decoration: none;
+    color: #202336;
+}
+
+.nav-one-right-link-other{
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-decoration: none;
+    color: #B8BECD;
+}
+
+.hero-two{
+    display: flex;
+    flex-direction: row;
+    width: 1500PX;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-two-left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30PX;
+}
+
+.hero-two-left-1-p{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: Playfair Display;
+    width: 356px;
+    line-height: 80px;
+
+}
+
+.hero-two-left-2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 21px;
+}
+
+.hero-two-left-2-p{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+    font-family: inter;
+}
+
+hr{
+    width: 32px;
+    height: 2px;
+    color: #202336;
+}
+
+.hero-two-left-3{
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+}
+
+.hero-two-left-3-main-div{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+
+.hero-two-left-3-btn{
+    border: 0.8px solid #AFB0B9;
+    width: 220px;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    font-family: inter;
+    border-radius: 6px;
+
+}
+
+.hero-two-left-4-btn{
+    background-color: #FB8F1D;
+    width: 180px;
+    height: 52px;
+    border: #FB8F1D;
+    color: white;
+}
