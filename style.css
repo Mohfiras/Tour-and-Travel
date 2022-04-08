@@ -245,3 +245,70 @@ hr{
     font-family: inter;
     color: #FB8F1D;
 }
+
+.section-2{
+    display: flex;
+    width: 1500PX;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 250px;
+}
+
+.section-2-left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.section-2-left-h3{
+    width: 481px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    font-family: Playfair Display;
+}
+
+.section-2-left-p{
+    width: 450px;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 300;
+    font-family: Mulish;
+    color: #7D7987;
+}
+
+.section-2-left-p-btn{
+    display: flex;
+    flex-direction: column;
+    row-gap: 36px;
+}
+
+.section-2-left-btn{
+    background-color: #FB8F1D;
+    width: 164px;
+    height: 48px;
+    border: #FB8F1D;
+    color: white;
+    border-radius: 8px;
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Testimonials{
+    display: flex;
+    width: 1500px;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 248px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Testimonials-left{
+    display: flex;
+    flex-direction: column;
+
+}
