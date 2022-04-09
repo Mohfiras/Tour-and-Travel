@@ -12,7 +12,7 @@ header{
     align-items: center;
 }
 
-.nav-one{
+.nav{
     display: flex;
     flex-direction: row;
     width: 1500px;
@@ -21,18 +21,18 @@ header{
    
 }
 
-.nav-one-right{
+.nav-right{
     display: flex;
     column-gap: 34px;
     align-items: center;
 }
 
-.nav-one-right-btn{
+.nav-right-btn{
     display: flex;
     column-gap: 18px;
 }
 
-.nav-one-right-btn-1{
+.nav-right-btn-1{
     border: 1px solid #FB8F1D;
     width: 132px;
     height: 44px;
@@ -41,7 +41,7 @@ header{
     color: #FB8F1D;
 }
 
-.nav-one-right-btn-2{
+.nav-right-btn-2{
     border: #FB8F1D;
     width: 132PX;
     height: 44PX;
@@ -50,7 +50,7 @@ header{
     color: white;
 }
 
-.nav-one-right-link-home{
+.nav-right-link-home{
     font-family: inter;
     font-size: 16px;
     font-weight: 500;
@@ -59,7 +59,7 @@ header{
     color: #202336;
 }
 
-.nav-one-right-link-other{
+.nav-right-link-other{
     font-family: inter;
     font-size: 16px;
     font-weight: 400;
@@ -68,7 +68,7 @@ header{
     color: #B8BECD;
 }
 
-.hero-two{
+.hero{
     display: flex;
     flex-direction: row;
     width: 1500PX;
@@ -78,13 +78,13 @@ header{
     align-items: center;
 }
 
-.hero-two-left{
+.hero-left{
     display: flex;
     flex-direction: column;
     row-gap: 30PX;
 }
 
-.hero-two-left-1-p{
+.hero-left-1-p{
     font-size: 64px;
     font-weight: 700;
     font-family: Playfair Display;
@@ -93,13 +93,13 @@ header{
 
 }
 
-.hero-two-left-2{
+.hero-left-2{
     display: flex;
     flex-direction: column;
     row-gap: 21px;
 }
 
-.hero-two-left-2-p{
+.hero-left-2-p{
     font-size: 22px;
     font-weight: 600;
     line-height: 26px;
@@ -112,19 +112,19 @@ hr{
     color: #202336;
 }
 
-.hero-two-left-3{
+.hero-left-3{
     display: flex;
     flex-direction: column;
     row-gap: 35px;
 }
 
-.hero-two-left-3-main-div{
+.hero-left-3-main-div{
     display: flex;
     flex-direction: row;
     column-gap: 30px;
 }
 
-.hero-two-left-3-btn{
+.hero-left-3-btn{
     border: 0.8px solid #AFB0B9;
     width: 220px;
     height: 52px;
@@ -138,7 +138,7 @@ hr{
 
 }
 
-.hero-two-left-4-btn{
+.hero-left-4-btn{
     background-color: #FB8F1D;
     width: 180px;
     height: 52px;
