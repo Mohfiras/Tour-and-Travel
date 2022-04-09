@@ -310,5 +310,24 @@ hr{
 .Testimonials-left{
     display: flex;
     flex-direction: column;
-
+    row-gap: 30px
 }
+
+.Testimonials-left-h3{
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.Testimonials-left-star-p1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.checked {
+    color: orange;
+    width: 25px;
+  }
+
