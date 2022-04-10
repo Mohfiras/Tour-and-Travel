@@ -336,7 +336,7 @@ hr{
 .checked {
     color: orange;
     width: 25px;
-  }
+}
 
 .Testimonials-left-p1{
     width: 450px;
@@ -365,5 +365,88 @@ hr{
     line-height: 48px;
 }
 
+.trending{
+    display: flex;
+    max-width: 1500px;
+    flex-direction: column;
+    row-gap: 20px;
+    margin: auto;
+    margin-top: 290px;
+}
 
+.trending-up{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+.trending-up-h3{
+    width: 481px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    font-family: Playfair Display;
+}
+
+.trending-up-right{
+    display: flex;
+    height: 60px;
+    flex-direction: row;
+    column-gap: 11px;
+    align-items: center;
+}
+
+.trending-up-right-p{
+    width: 64px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: inter;
+    color: #FB8F1D;
+}
+
+.trending-down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.trending-down-part{
+    width: 271px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    row-gap: 15px;
+    
+}
+
+.trending-down-p1{
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.trending-down-p2{
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#7D7987;
+    ;
+
+}
+
+.trending-down-p3{
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FB8F1D;
+}
